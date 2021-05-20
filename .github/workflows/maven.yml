@@ -24,4 +24,4 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
     - name: Run Tests
-      run:  ./src/test/java/cr/ac/ucr/sa/videorent/service/AuthorServiceTest.java
+      run:  mvn -B package --file AuthorServiceTest.java
