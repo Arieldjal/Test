@@ -22,5 +22,5 @@ jobs:
         java-version: '11'
         distribution: 'adopt'
     - name: Run Tests
-      working-directory: ./src/test/java/cr/ac/ucr/sa/videorent/
-      run: service
+      working-directory: ./src/test/java/cr/ac/ucr/sa/videorent/service
+      run: mvn package --file AuthorServiceTest
