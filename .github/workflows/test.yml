@@ -23,4 +23,4 @@ jobs:
         distribution: 'adopt'
     - name: Run Tests
       working-directory: ./src/test/java/cr/ac/ucr/sa/videorent/service
-      run: mvn package --file AuthorServiceTest
+      run: mvn package --file AuthorServiceTest.java
