@@ -16,7 +16,7 @@ import javax.persistence.OneToMany;
 public class Author {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long ip;
+	private Long id;
 	@Column(name = "name", unique = false, length = 50, nullable = false)
 	private String name;
 	@Column(name = "genre", unique = false, length = 25, nullable = false)
